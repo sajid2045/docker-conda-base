@@ -5,7 +5,7 @@ RUN     apt-get update -y && \
         wget curl jq git \
         bash bash-completion \
         gcc musl-dev openssl \
-        make groff tree vim \
+        make groff tree \
         ca-certificates less \
         apt-transport-https default-jdk \
         maven vim && \
