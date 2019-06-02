@@ -2,7 +2,7 @@ FROM conda/miniconda3
 
 RUN     apt-get update -y && \
         apt-get install -y  \
-        wget curl jq git \
+        wget curl jq git tmux watch \
         bash bash-completion \
         gcc musl-dev openssl \
         make groff tree \
