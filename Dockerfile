@@ -15,3 +15,6 @@ RUN     apt-get update -y && \
 
 RUN conda install -y nb_conda_kernels
 
+ADD conda-profile-fix.sh /usr/local/etc/profile.d/conda.sh
+
+
